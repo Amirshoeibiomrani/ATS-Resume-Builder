@@ -1,0 +1,178 @@
+# ====================
+# وابستگی‌ها (Dependencies)
+# ====================
+node_modules/
+.pnpm-store/
+yarn-error.log
+yarn-debug.log
+npm-debug.log*
+
+# ====================
+# فایل‌های محیطی (Environment Variables)
+# ====================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# ====================
+# فایل‌های ساخت (Build files)
+# ====================
+.next/
+out/
+build/
+dist/
+.vercel/
+.vercel/output/
+vercel-build-output/
+
+# ====================
+# فایل‌های کش (Cache files)
+# ====================
+.cache/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+.tsbuildinfo
+
+# ====================
+# فایل‌های سیستم‌عامل
+# ====================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ====================
+# فایل‌های ویرایشگر (Editor files)
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.workspace
+*.sublime-project
+*.sublime-workspace
+.vscode/*
+!.vscode/extensions.json
+
+# ====================
+# فایل‌های لاگ (Logs)
+# ====================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# ====================
+# فایل‌های تست (Testing)
+# ====================
+coverage/
+.nyc_output/
+*.lcov
+
+# ====================
+# فایل‌های موقت (Temporary files)
+# ====================
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ====================
+# فایل‌های Next.js مخصوص
+# ====================
+.next/
+out/
+.vercel
+dist/
+server/
+standalone/
+
+# ====================
+# فایل‌های TypeScript
+# ====================
+*.tsbuildinfo
+.next/types/
+
+# ====================
+# فایل‌های مخفی و پیکربندی محلی
+# ====================
+*.local
+*.secret
+*.private
+config.local.*
+secret.*
+credentials.*
+*.pem
+*.key
+*.crt
+
+# ====================
+# فایل‌های امنیتی (Security)
+# ====================
+.htaccess
+.htpasswd
+.password
+.passwd
+*.p12
+*.pfx
+*.jks
+
+# ====================
+# فایل‌های دیتابیس (Database)
+# ====================
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+# ====================
+# فایل‌های پکیج‌منیجر
+# ====================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# ====================
+# فایل‌های دیباگ (Debug)
+# ====================
+debug.log
+chrome-debug.log
+.vercel-debug.log
+
+# ====================
+# فایل‌های آپلود (Uploads)
+# ====================
+uploads/
+downloads/
+public/uploads/
+public/downloads/
+
+# ====================
+# فایل‌های موقت گیت (Git)
+# ====================
+*.orig
+*.rej
+*.patch
+.gitattributes
+.gitmodules
+
+# ====================
+# فایل‌های مربوط به Docker
+# ====================
+Dockerfile
+docker-compose*.yml
+.dockerignore
+*.dockerfile
